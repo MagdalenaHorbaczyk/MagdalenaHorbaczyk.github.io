@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://glacial-forest-47776.herokuapp.com/v1/';
-  const trelloApiRoot = 'http://glacial-forest-47776.herokuapp.com/v1/trello/';
+  const apiRoot = 'https://glacial-forest-47776.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'http://glacial-forest-47776.herokuapp.com/v1/task/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
